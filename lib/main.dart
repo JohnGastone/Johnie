@@ -4,6 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:john_gastone/pages/Profile.dart';
+import 'package:john_gastone/pages/experience.dart';
+import 'package:john_gastone/pages/favorite.dart';
 
 void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -30,14 +32,8 @@ class _ExampleState extends State<Example> {
       'Home',
       style: optionStyle,
     ),
-    Text(
-      'Favorite',
-      style: optionStyle,
-    ),
-    Text(
-      'Search',
-      style: optionStyle,
-    ),
+    favorite(),
+    experience(),
     profile()
   ];
 
@@ -81,8 +77,8 @@ class _ExampleState extends State<Example> {
                   text: 'Favorite',
                 ),
                 GButton(
-                  icon: CupertinoIcons.search,
-                  text: 'Search',
+                  icon: CupertinoIcons.device_laptop,
+                  text: 'X-perience',
                 ),
                 GButton(
                   icon: CupertinoIcons.person_alt,
