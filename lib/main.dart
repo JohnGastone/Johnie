@@ -6,6 +6,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:john_gastone/pages/Profile.dart';
 
 void main() => runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     builder: (context, child) {
       return Directionality(textDirection: TextDirection.ltr, child: child!);
     },
