@@ -6,6 +6,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:john_gastone/pages/Profile.dart';
 import 'package:john_gastone/pages/experience.dart';
 import 'package:john_gastone/pages/favorite.dart';
+import 'package:john_gastone/pages/home.dart';
 
 void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -28,10 +29,7 @@ class _ExampleState extends State<Example> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.w600);
   static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Home',
-      style: optionStyle,
-    ),
+    home(),
     favorite(),
     experience(),
     profile()
