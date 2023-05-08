@@ -13,10 +13,10 @@ class profile extends StatelessWidget {
           SizedBox(
             height: 150,
           ),
-          Text(
-            'Profile',
-            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
-          )
+          // Text(
+          //   'Profile',
+          //   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+          // )
         ],
       ),
     );
