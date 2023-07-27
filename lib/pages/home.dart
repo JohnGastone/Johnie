@@ -1,10 +1,22 @@
 import 'package:flutter/material.dart';
 
-class home extends StatelessWidget {
-  const home({super.key});
+class Home extends StatelessWidget {
+  const Home({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              Text('This is the Home of John Gastone, please feel involved' style: ,)
+            ],
+          ),
+          Row()
+        ],
+      ),
+    );
   }
 }
