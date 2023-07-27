@@ -13,10 +13,10 @@ class Profile extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(
-              height: 100,
+              height: 70,
             ),
             Text(
-              '| Wozup!! \n\n    |  You are with John, \n\n        |  a full time learner',
+              '| Wozup!! \n\n    |  You are with John, \n\n        |  a full time learner.',
               style: GoogleFonts.lato(
                 fontSize: 18,
               ),
