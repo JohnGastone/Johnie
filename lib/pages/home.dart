@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -10,8 +11,14 @@ class Home extends StatelessWidget {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              Text('This is the Home of John Gastone, please feel involved' style: GoogleFonts.lato(),)
+            children: [
+              const SizedBox(
+                height: 105,
+              ),
+              Text(
+                'This is the Home of John Gastone, \n             please feel involved',
+                style: GoogleFonts.lato(fontSize: 20),
+              )
             ],
           ),
           Row()

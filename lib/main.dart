@@ -3,10 +3,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:john_gastone/pages/Profile.dart';
 import 'package:john_gastone/pages/experience.dart';
 import 'package:john_gastone/pages/favorite.dart';
 import 'package:john_gastone/pages/home.dart';
+import 'package:john_gastone/pages/profile.dart';
 
 void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -30,9 +30,9 @@ class _ExampleState extends State<Example> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.w600);
   static const List<Widget> _widgetOptions = <Widget>[
     Home(),
-    favorite(),
-    experience(),
-    profile()
+    Favorite(),
+    Experience(),
+    Profile()
   ];
 
   @override

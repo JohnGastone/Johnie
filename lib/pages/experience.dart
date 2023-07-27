@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class experience extends StatelessWidget {
-  const experience({super.key});
+class Experience extends StatelessWidget {
+  const Experience({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center();
   }
 }
