@@ -20,7 +20,11 @@ class Profile extends StatelessWidget {
               style: GoogleFonts.lato(
                 fontSize: 18,
               ),
-            )
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            const Image(image: AssetImage('/assets/line.png'))
           ],
         ),
       ),
