@@ -16,7 +16,7 @@ class Profile extends StatelessWidget {
               height: 70,
             ),
             Text(
-              '| Wozup!! \n\n    |  You are with John, \n\n        |  a full time learner.',
+              '| Wozup!! \n\n    |  You are with John. \n\n|  A full time learner.',
               style: GoogleFonts.lato(
                 fontSize: 18,
               ),
@@ -24,7 +24,7 @@ class Profile extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            const Image(image: AssetImage('/assets/line.png'))
+            // const Image(image: AssetImage('assets/pics/she.jpeg'))
           ],
         ),
       ),
