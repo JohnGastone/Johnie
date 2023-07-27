@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
-              Text('This is the Home of John Gastone, please feel involved' style: ,)
+              Text('This is the Home of John Gastone, please feel involved' style: GoogleFonts.lato(),)
             ],
           ),
           Row()
