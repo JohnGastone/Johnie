@@ -104,11 +104,27 @@ class Favorite extends StatelessWidget {
                     width: double.infinity,
                     child: Card(
                       margin: EdgeInsets.all(32),
-                      color: Color.fromARGB(255, 201, 231, 218),
+                      color: Color.fromARGB(255, 189, 144, 189),
                       elevation: 20,
                       shadowColor: Color.fromARGB(255, 120, 109, 300),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                  SizedBox(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.question_mark),
+                        Text(
+                          'The HOW',
+                          style: GoogleFonts.lato(
+                              // height: 10,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
+                        Icon(Icons.question_mark),
+                      ],
                     ),
                   ),
                   Column(
@@ -127,41 +143,6 @@ class Favorite extends StatelessWidget {
               ),
               SizedBox(
                 height: 20,
-              ),
-              SizedBox(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.question_mark),
-                    Text(
-                      'The WHY',
-                      style: GoogleFonts.lato(
-                          // height: 10,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold),
-                    ),
-                    Icon(Icons.question_mark),
-                  ],
-                ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              SizedBox(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.question_mark),
-                    Text(
-                      'The HOW',
-                      style: GoogleFonts.lato(
-                          // height: 10,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold),
-                    ),
-                    Icon(Icons.question_mark),
-                  ],
-                ),
               ),
             ],
           ),
