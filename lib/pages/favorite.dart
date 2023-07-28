@@ -25,6 +25,18 @@ class Favorite extends StatelessWidget {
                     height: 12,
                   ),
                   SizedBox(
+                    height: 70,
+                    width: double.infinity,
+                    child: Card(
+                      margin: EdgeInsets.all(32),
+                      color: Color.fromARGB(255, 201, 231, 218),
+                      elevation: 20,
+                      shadowColor: Color.fromARGB(255, 120, 109, 300),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                  SizedBox(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -38,18 +50,6 @@ class Favorite extends StatelessWidget {
                         ),
                         Icon(Icons.question_mark),
                       ],
-                    ),
-                  ),
-                  SizedBox(
-                    height: 70,
-                    width: double.infinity,
-                    child: Card(
-                      margin: EdgeInsets.all(32),
-                      color: Color.fromARGB(255, 201, 231, 218),
-                      elevation: 20,
-                      shadowColor: Color.fromARGB(255, 120, 109, 300),
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)),
                     ),
                   ),
                   Column(
