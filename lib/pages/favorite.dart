@@ -56,7 +56,7 @@ class Favorite extends StatelessWidget {
                     children: [
                       Center(
                         child: Text(
-                            "       __The World is rapidly changing. \n   __Having some skills is a must. \n__Especially coding skills.",
+                            "       __The World is rapidly changing. \n   __Having some skills is a must. \n__Especially computer skills.",
                             style: GoogleFonts.lato(fontSize: 18)),
                       )
                     ],
@@ -74,6 +74,22 @@ class Favorite extends StatelessWidget {
                       shadowColor: Color.fromARGB(2255, 201, 231, 218),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                  SizedBox(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.question_mark),
+                        Text(
+                          'The WHY',
+                          style: GoogleFonts.lato(
+                              // height: 10,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
+                        Icon(Icons.question_mark),
+                      ],
                     ),
                   ),
                   Text(
