@@ -22,8 +22,31 @@ class Profile extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 10,
+              height: 20,
             ),
+            SizedBox(
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Icon(Icons.person_pin_rounded),
+                      Text(
+                        'Personal Details',
+                        style: GoogleFonts.lato(
+                            // height: 10,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold),
+                      )
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  Text('data')
+                ],
+              ),
+            )
             // const Image(image: AssetImage('assets/pics/she.jpeg'))
           ],
         ),
