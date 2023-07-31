@@ -56,7 +56,7 @@ class Favorite extends StatelessWidget {
                     children: [
                       Center(
                         child: Text(
-                            "       __The World is rapidly changing. \n   __Having some skills is a must. \n__Especially computer skills.",
+                            "       __The World is rapidly changing. \n   __New dynamics evolve. \n__Demand for competence is high.",
                             style: GoogleFonts.lato(fontSize: 18)),
                       )
                     ],
@@ -104,7 +104,7 @@ class Favorite extends StatelessWidget {
                     width: double.infinity,
                     child: Card(
                       margin: EdgeInsets.all(32),
-                      color: Color.fromARGB(255, 189, 144, 189),
+                      color: Color.fromARGB(255, 189, 139, 189),
                       elevation: 20,
                       shadowColor: Color.fromARGB(255, 120, 109, 300),
                       shape: RoundedRectangleBorder(
@@ -131,7 +131,7 @@ class Favorite extends StatelessWidget {
                     children: [
                       Center(
                         child: Text(
-                            "       __The World is rapidly changing. \n   __Having some skills is a must. \n__Especially coding skills.",
+                            "       __Embracing learning opportunities. \n   __Not taking little things for granted. \n__Laying low and stay humble.",
                             style: GoogleFonts.lato(fontSize: 18)),
                       )
                     ],

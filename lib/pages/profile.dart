@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -43,7 +43,19 @@ class Profile extends StatelessWidget {
                   const SizedBox(
                     height: 10,
                   ),
-                  Text('data')
+                  SizedBox(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Icon(Icons.calendar_month_outlined),
+                        Text(
+                          'D.O.B',
+                          style: GoogleFonts.lato(
+                              fontSize: 17, fontWeight: FontWeight.w700),
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             )

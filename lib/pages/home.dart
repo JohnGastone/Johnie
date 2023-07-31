@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(
-                height: 118,
+                height: 125,
               ),
               Text(
                 'This is the Home of John Gastone, \n             please feel involved',
