@@ -21,8 +21,10 @@ class Profile extends StatelessWidget {
                 fontSize: 18,
               ),
             ),
-            const SizedBox(
-              height: 20,
+            SizedBox(
+              height: 100,
+              width: 100,
+              child: Image.asset('./images/bento.png'),
             ),
             SizedBox(
               child: Column(
@@ -79,7 +81,6 @@ class Profile extends StatelessWidget {
                 ],
               ),
             ),
-            const Image(image: AssetImage('./images/question.png'))
           ],
         ),
       ),

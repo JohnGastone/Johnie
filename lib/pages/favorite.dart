@@ -115,7 +115,10 @@ class Favorite extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.question_mark),
+                        Image.asset(
+                          './images/question.png',
+                          height: 40,
+                        ),
                         Text(
                           'The HOW',
                           style: GoogleFonts.lato(
