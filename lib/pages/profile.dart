@@ -30,14 +30,23 @@ class Profile extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Icon(Icons.person_pin_rounded),
+                      Text(
+                        "< ",
+                        style: GoogleFonts.lato(
+                            fontSize: 40, fontWeight: FontWeight.w300),
+                      ),
                       Text(
                         'Personal Details',
                         style: GoogleFonts.lato(
                             // height: 10,
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
-                      )
+                      ),
+                      Text(
+                        " /> ",
+                        style: GoogleFonts.lato(
+                            fontSize: 40, fontWeight: FontWeight.w300),
+                      ),
                     ],
                   ),
                   const SizedBox(
@@ -45,21 +54,32 @@ class Profile extends StatelessWidget {
                   ),
                   SizedBox(
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Icon(Icons.calendar_month_outlined),
-                        Text(
-                          'D.O.B',
-                          style: GoogleFonts.lato(
-                              fontSize: 17, fontWeight: FontWeight.w700),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 22),
+                          child: Padding(
+                            padding: const EdgeInsets.all(18.0),
+                            child: Row(
+                              children: [
+                                Icon(Icons.calendar_month_outlined),
+                                Text(
+                                  'D.O.B',
+                                  style: GoogleFonts.lato(
+                                      fontSize: 17,
+                                      fontWeight: FontWeight.w400),
+                                ),
+                              ],
+                            ),
+                          ),
                         ),
                       ],
                     ),
                   ),
                 ],
               ),
-            )
-            // const Image(image: AssetImage('assets/pics/she.jpeg'))
+            ),
+            const Image(image: AssetImage('./images/question.png'))
           ],
         ),
       ),

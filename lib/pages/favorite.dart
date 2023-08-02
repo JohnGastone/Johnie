@@ -123,7 +123,10 @@ class Favorite extends StatelessWidget {
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
-                        Icon(Icons.question_mark),
+                        Image.asset(
+                          './images/question.png',
+                          height: 40,
+                        )
                       ],
                     ),
                   ),
