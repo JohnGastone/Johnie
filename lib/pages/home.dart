@@ -9,12 +9,20 @@ class Home extends StatelessWidget {
     return Center(
       child: Column(
         children: [
-          Row(
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(
-                height: 125,
+                height: 50,
               ),
+              Image.asset(
+                './images/bentoo.png',
+                height: 100,
+                width: 100,
+              ),
+              // const SizedBox(
+              //   height: 125,
+              // ),
               Text(
                 'This is the Home of John Gastone, \n             please feel involved',
                 style: GoogleFonts.lato(fontSize: 20),

@@ -156,7 +156,7 @@ class Profile extends StatelessWidget {
                                   Column(
                                     children: [
                                       Text(
-                                        '         Call him via \n         <*> +255 786 849 280 \n  <*> +255 624 839 009.',
+                                        '         Call him via \n       +255 786 849 280 \n       +255 624 839 009.',
                                         style: GoogleFonts.lato(
                                             fontSize: 16,
                                             fontWeight: FontWeight.w400),
