@@ -149,15 +149,19 @@ class Profile extends StatelessWidget {
                               child: Row(
                                 children: [
                                   Image.asset(
-                                    './images/residence.png',
+                                    './images/phone-call.png',
                                     height: 25,
                                     width: 25,
                                   ),
-                                  Text(
-                                    '         He currently reside in Dar es Salaam \n         in search of maokoto.',
-                                    style: GoogleFonts.lato(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.w400),
+                                  Column(
+                                    children: [
+                                      Text(
+                                        '         Call him via \n         <*> +255 786 849 280 \n  <*> +255 624 839 009.',
+                                        style: GoogleFonts.lato(
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.w400),
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
