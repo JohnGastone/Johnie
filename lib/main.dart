@@ -80,7 +80,7 @@ class _ExampleState extends State<Example> {
                 ),
                 GButton(
                   icon: CupertinoIcons.person_alt,
-                  text: 'Profile',
+                  text: 'About Me',
                 ),
               ],
               selectedIndex: _selectedIndex,
