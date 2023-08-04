@@ -22,9 +22,9 @@ class Profile extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 100,
-              width: 100,
-              child: Image.asset('./images/bento.png'),
+              height: 110,
+              width: 110,
+              child: Image.asset('./images/bentoo.png'),
             ),
             SizedBox(
               child: Column(
@@ -52,7 +52,7 @@ class Profile extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(
-                    height: 10,
+                    height: 2,
                   ),
                   SizedBox(
                     child: Row(
@@ -64,11 +64,15 @@ class Profile extends StatelessWidget {
                             padding: const EdgeInsets.all(18.0),
                             child: Row(
                               children: [
-                                Icon(Icons.calendar_month_outlined),
+                                Image.asset(
+                                  './images/age.png',
+                                  height: 25,
+                                  width: 25,
+                                ),
                                 Text(
-                                  'D.O.B',
+                                  '         John is a young man at his twenties(20++) \n         working to improve welfare of humankind.',
                                   style: GoogleFonts.lato(
-                                      fontSize: 17,
+                                      fontSize: 16,
                                       fontWeight: FontWeight.w400),
                                 ),
                               ],
