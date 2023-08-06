@@ -16,7 +16,7 @@ class Profile extends StatelessWidget {
           child: Column(
             children: [
               Text(
-                '| Wozup!! \n\n    |  You are with John. \n\n|  A full time learner.',
+                '| Wozup!! \n\n    |  Meet John. \n\n|  A full time learner.',
                 style: GoogleFonts.lato(
                   fontSize: 18,
                 ),
@@ -181,12 +181,12 @@ class Profile extends StatelessWidget {
                               child: Row(
                                 children: [
                                   Image.asset(
-                                    './images/residence.png',
-                                    height: 25,
-                                    width: 25,
+                                    './images/bio.png',
+                                    height: 28,
+                                    width: 28,
                                   ),
                                   Text(
-                                    '         He currently reside in Dar es Salaam \n         in search of maokoto.',
+                                    '''        He is a very dedicated and passionate \n        software developer and Data Science \n        enthusiast, loving to work in a learning \n       oriented environment where customer  \n       satisfaction is a priority.''',
                                     style: GoogleFonts.lato(
                                         fontSize: 16,
                                         fontWeight: FontWeight.w400),
@@ -198,34 +198,48 @@ class Profile extends StatelessWidget {
                         ],
                       ),
                     ),
-                    SizedBox(
-                      child: Row(
-                        //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(left: 22),
-                            child: Padding(
-                              padding: const EdgeInsets.all(18.0),
-                              child: Row(
-                                children: [
-                                  Image.asset(
-                                    './images/residence.png',
-                                    height: 25,
-                                    width: 25,
-                                  ),
-                                  Text(
-                                    '         He currently reside in Dar es Salaam \n         in search of maokoto.',
-                                    style: GoogleFonts.lato(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.w400),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(''),
+                        Text(
+                          'Read More',
+                          style: GoogleFonts.lato(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ),
+                        SizedBox(
+                          width: 1,
+                        )
+                      ],
+                    )
+                    // SizedBox(
+                    //   child: Row(
+                    //     //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    //     children: [
+                    //       Padding(
+                    //         padding: const EdgeInsets.only(left: 22),
+                    //         child: Padding(
+                    //           padding: const EdgeInsets.all(18.0),
+                    //           child: Row(
+                    //             children: [
+                    //               Image.asset(
+                    //                 './images/residence.png',
+                    //                 height: 25,
+                    //                 width: 25,
+                    //               ),
+                    //               Text(
+                    //                 '         He currently reside in Dar es Salaam \n         in search of maokoto.',
+                    //                 style: GoogleFonts.lato(
+                    //                     fontSize: 16,
+                    //                     fontWeight: FontWeight.w400),
+                    //               ),
+                    //             ],
+                    //           ),
+                    //         ),
+                    //       ),
+                    //     ],
+                    //   ),
+                    // ),
                   ],
                 ),
               ),
