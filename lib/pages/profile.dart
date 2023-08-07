@@ -205,7 +205,9 @@ class Profile extends StatelessWidget {
                         Text(
                           'Read More',
                           style: GoogleFonts.lato(
-                              fontSize: 20, fontWeight: FontWeight.w700),
+                              fontSize: 20,
+                              fontWeight: FontWeight.w700,
+                              backgroundColor: Colors.white70),
                         ),
                         SizedBox(
                           width: 1,

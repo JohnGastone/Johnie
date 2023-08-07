@@ -80,7 +80,10 @@ class Favorite extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.question_mark),
+                        Image.asset(
+                          './images/question.png',
+                          height: 40,
+                        ),
                         Text(
                           'The WHY',
                           style: GoogleFonts.lato(
@@ -88,7 +91,10 @@ class Favorite extends StatelessWidget {
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
-                        Icon(Icons.question_mark),
+                        Image.asset(
+                          './images/question.png',
+                          height: 40,
+                        )
                       ],
                     ),
                   ),
@@ -116,7 +122,7 @@ class Favorite extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image.asset(
-                          './images/question.png',
+                          './images/how.png',
                           height: 40,
                         ),
                         Text(
@@ -126,8 +132,11 @@ class Favorite extends StatelessWidget {
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
+                        SizedBox(
+                          width: 5,
+                        ),
                         Image.asset(
-                          './images/question.png',
+                          './images/how.png',
                           height: 40,
                         )
                       ],
