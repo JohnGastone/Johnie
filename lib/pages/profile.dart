@@ -4,13 +4,15 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../widgets/expandableButton.dart';
+
 class Profile extends StatelessWidget {
   const Profile({super.key});
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      dragStartBehavior: DragStartBehavior.start,
+      // dragStartBehavior: DragStartBehavior.start,
       child: SizedBox(
         child: Center(
           child: Column(
@@ -201,17 +203,18 @@ class Profile extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(''),
-                        Text(
-                          'Read More',
-                          style: GoogleFonts.lato(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w700,
-                              backgroundColor: Colors.white70),
-                        ),
-                        SizedBox(
-                          width: 1,
-                        )
+                        // Text(''),
+                        //ExampleExpandableFab(),
+                        // Text(
+                        //   'Read More',
+                        //   style: GoogleFonts.lato(
+                        //       fontSize: 20,
+                        //       fontWeight: FontWeight.w700,
+                        //       backgroundColor: Colors.white70),
+                        // ),
+                        // SizedBox(
+                        //   width: 1,
+                        // )
                       ],
                     )
                     // SizedBox(
