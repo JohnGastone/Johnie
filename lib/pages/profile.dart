@@ -3,11 +3,31 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:john_gastone/pages/experience.dart';
+import 'package:john_gastone/pages/jonii.dart';
 
 import '../widgets/expandableButton.dart';
 
 class Profile extends StatelessWidget {
   const Profile({super.key});
+  static const _actionTitles = ['Create Post', 'Upload Photo', 'Upload Video'];
+
+  void _showAction(BuildContext context, int index) {
+    showDialog<void>(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          content: Text(_actionTitles[index]),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('CLOSE'),
+            ),
+          ],
+        );
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -201,20 +221,21 @@ class Profile extends StatelessWidget {
                       ),
                     ),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        // Text(''),
-                        //ExampleExpandableFab(),
-                        // Text(
-                        //   'Read More',
-                        //   style: GoogleFonts.lato(
-                        //       fontSize: 20,
-                        //       fontWeight: FontWeight.w700,
-                        //       backgroundColor: Colors.white70),
-                        // ),
-                        // SizedBox(
-                        //   width: 1,
-                        // )
+                        InkWell(
+                          onTap: () {
+                            //Navigator.pop(context);
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => Jonii()));
+                          },
+                          child: Text(
+                            'Keep Exploring John',
+                            style: GoogleFonts.lato(
+                                fontSize: 18, fontWeight: FontWeight.w700),
+                          ),
+                          //child: Icon(Icons.arrow_circle_right_outlined),
+                        )
                       ],
                     )
                     // SizedBox(
