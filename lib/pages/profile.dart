@@ -234,10 +234,11 @@ class Profile extends StatelessWidget {
                             style: GoogleFonts.lato(
                                 fontSize: 18, fontWeight: FontWeight.w700),
                           ),
-                          //child: Icon(Icons.arrow_circle_right_outlined),
+                          child: Icon(Icons.arrow_circle_right_outlined),
                         )
                       ],
-                    )
+                    ),
+
                     // SizedBox(
                     //   child: Row(
                     //     //mainAxisAlignment: MainAxisAlignment.spaceEvenly,

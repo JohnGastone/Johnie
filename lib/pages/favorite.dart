@@ -80,10 +80,7 @@ class Favorite extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Image.asset(
-                          './images/question.png',
-                          height: 40,
-                        ),
+                        Icon(Icons.question_mark_sharp),
                         Text(
                           'The WHY',
                           style: GoogleFonts.lato(
@@ -91,10 +88,7 @@ class Favorite extends StatelessWidget {
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
-                        Image.asset(
-                          './images/question.png',
-                          height: 40,
-                        )
+                        Icon(Icons.question_mark_sharp),
                       ],
                     ),
                   ),
@@ -122,7 +116,7 @@ class Favorite extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image.asset(
-                          './images/how.png',
+                          './images/question.png',
                           height: 40,
                         ),
                         Text(
@@ -136,9 +130,9 @@ class Favorite extends StatelessWidget {
                           width: 5,
                         ),
                         Image.asset(
-                          './images/how.png',
+                          './images/question.png',
                           height: 40,
-                        )
+                        ),
                       ],
                     ),
                   ),
@@ -146,7 +140,7 @@ class Favorite extends StatelessWidget {
                     children: [
                       Center(
                         child: Text(
-                            "       __Embracing learning opportunities. \n   __Not taking little things for granted. \n__Laying low and stay humble.",
+                            "       __Embracing learning opportunities. \n   __Not taking little things for granted. \n__Laying low and staying humble.",
                             style: GoogleFonts.lato(fontSize: 18)),
                       )
                     ],
