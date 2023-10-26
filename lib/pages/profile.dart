@@ -32,7 +32,7 @@ class Profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // dragStartBehavior: DragStartBehavior.start,
+      dragStartBehavior: DragStartBehavior.start,
       child: SizedBox(
         child: Center(
           child: Column(
@@ -229,12 +229,19 @@ class Profile extends StatelessWidget {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: (context) => Jonii()));
                           },
+                          //hoverColor: Color.fromARGB(255, 231, 12, 12),
                           child: Text(
                             'Keep Exploring John',
                             style: GoogleFonts.lato(
                                 fontSize: 18, fontWeight: FontWeight.w700),
                           ),
-                          child: Icon(Icons.arrow_circle_right_outlined),
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Icon(
+                          Icons.read_more,
+                          size: 39,
                         )
                       ],
                     ),

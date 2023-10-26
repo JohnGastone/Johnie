@@ -34,6 +34,9 @@ class Home extends StatelessWidget {
                 'He likes exploring literatures',
                 style: GoogleFonts.lato(fontSize: 20),
               ),
+              const SizedBox(
+                height: 8,
+              ),
               Image.asset(
                 './images/John_Gastone.png',
                 width: 300,

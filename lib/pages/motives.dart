@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Favorite extends StatelessWidget {
-  const Favorite({super.key});
+class Motives extends StatelessWidget {
+  const Motives({super.key});
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -15,7 +15,21 @@ class Favorite extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SizedBox(
-                    height: 70,
+                    height: 32,
+                  ),
+                  SizedBox(
+                    child: Center(
+                      child: Text(
+                        '-> The World Is Ours, \n  -> To Conquer',
+                        style: GoogleFonts.lato(
+                            fontSize: 31,
+                            fontStyle: FontStyle.italic,
+                            fontWeight: FontWeight.w900),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 50,
                   ),
                   Text(
                     " __You are here already!! \n      __In here you will find things that I enjoy doing. \n           __Let's take a walk then.",

@@ -1,11 +1,12 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, use_key_in_widget_constructors, library_private_types_in_public_api, unused_field
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, use_key_in_widget_constructors, library_private_types_in_public_api, unused_field, unused_import
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:john_gastone/pages/experience.dart';
-import 'package:john_gastone/pages/favorite.dart';
+import 'package:john_gastone/pages/motives.dart';
 import 'package:john_gastone/pages/home.dart';
+import 'package:john_gastone/pages/jonii.dart';
 import 'package:john_gastone/pages/profile.dart';
 
 void main() => runApp(MaterialApp(
@@ -30,7 +31,7 @@ class _ExampleState extends State<Example> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.w600);
   static const List<Widget> _widgetOptions = <Widget>[
     Home(),
-    Favorite(),
+    Motives(),
     Experience(),
     Profile()
   ];
@@ -71,8 +72,8 @@ class _ExampleState extends State<Example> {
                   text: 'Home',
                 ),
                 GButton(
-                  icon: CupertinoIcons.heart,
-                  text: 'Favorite',
+                  icon: CupertinoIcons.star_circle_fill,
+                  text: 'Motives',
                 ),
                 GButton(
                   icon: CupertinoIcons.device_laptop,
@@ -80,7 +81,8 @@ class _ExampleState extends State<Example> {
                 ),
                 GButton(
                   icon: CupertinoIcons.person_alt,
-                  text: 'About Me',
+                  text: 'About John',
+                  iconSize: 22.0,
                 ),
               ],
               selectedIndex: _selectedIndex,

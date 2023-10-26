@@ -5,6 +5,10 @@ class Experience extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center();
+    return const Center(
+        child: TextField(
+      showCursor: true,
+      textAlign: TextAlign.center,
+    ));
   }
 }
