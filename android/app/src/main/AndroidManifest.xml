@@ -3,7 +3,7 @@
    <application
         android:label="John Gastone"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/bentoo">
         <activity
             android:name=".MainActivity"
             android:exported="true"
