@@ -38,7 +38,7 @@ class Profile extends StatelessWidget {
           child: Column(
             children: [
               Text(
-                '|  Meet John. \n\n|  A full time learner.',
+                '|>  Meet John. \n\n|>  A full time learner.',
                 style: GoogleFonts.lato(
                   fontSize: 18,
                 ),
