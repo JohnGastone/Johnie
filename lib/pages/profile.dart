@@ -223,25 +223,7 @@ class Profile extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        InkWell(
-                          onTap: () {
-                            //Navigator.pop(context);
-                            Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) => Jonii()));
-                          },
-                          //hoverColor: Color.fromARGB(255, 231, 12, 12),
-                          child: Text(
-                            'Keep Exploring John',
-                            style: GoogleFonts.lato(
-                                fontSize: 18, fontWeight: FontWeight.w700),
-                          ),
-                        ),
-                        SizedBox(
-                          width: 10,
-                        ),
-                        Icon(
-                          Icons.read_more,
-                          size: 35,
+                        Padding(padding: const EdgeInsets.only(left:22),
                         )
                       ],
                     ),
