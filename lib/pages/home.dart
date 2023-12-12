@@ -50,7 +50,7 @@ class Home extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "He tries his best to contribute to \n GitHub",
+                "He tries his best to contribute to \n                            GitHub",
                 style: GoogleFonts.lato(fontSize: 20),
               ),
               SizedBox(
