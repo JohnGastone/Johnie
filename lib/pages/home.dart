@@ -47,7 +47,9 @@ class Home extends StatelessWidget {
             ],
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              const Text("He tries his best to contribute to GitHub"),
               SizedBox(
                 child: SvgPicture.network(
                   'https://user-badge.committers.top/tanzania/JohnGastone.svg',
