@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
