@@ -47,9 +47,15 @@ class Home extends StatelessWidget {
             ],
           ),
           Row(
-              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              // children: [Text(''), Icon(Icons.smart_button)],
+            children: [
+              SizedBox(
+                child: SvgPicture.network(
+                  'https://user-badge.committers.top/tanzania/JohnGastone.svg',
+                  // Other properties like width, height, color, etc.
+                ),
               )
+            ],
+          )
         ],
       ),
     );
