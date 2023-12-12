@@ -46,10 +46,13 @@ class Home extends StatelessWidget {
               )
             ],
           ),
-          Row(
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text("He tries his best to contribute to GitHub"),
+              Text(
+                "He tries his best to contribute to \n GitHub",
+                style: GoogleFonts.lato(fontSize: 20),
+              ),
               SizedBox(
                 child: SvgPicture.network(
                   'https://user-badge.committers.top/tanzania/JohnGastone.svg',
