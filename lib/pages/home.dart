@@ -46,21 +46,21 @@ class Home extends StatelessWidget {
               )
             ],
           ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                "He tries his best to contribute to \n                            GitHub",
-                style: GoogleFonts.lato(fontSize: 20),
-              ),
-              SizedBox(
-                child: SvgPicture.network(
-                  'https://user-badge.committers.top/tanzania/JohnGastone.svg',
-                  // Other properties like width, height, color, etc.
-                ),
-              )
-            ],
-          )
+          // Column(
+          //   mainAxisAlignment: MainAxisAlignment.center,
+          //   children: [
+          //     Text(
+          //       "He tries his best to contribute to \n                            GitHub",
+          //       style: GoogleFonts.lato(fontSize: 20),
+          //     ),
+          //     SizedBox(
+          //       child: SvgPicture.network(
+          //         'https://user-badge.committers.top/tanzania/JohnGastone.svg',
+          //         // Other properties like width, height, color, etc.
+          //       ),
+          //     )
+          //   ],
+          // )
         ],
       ),
     );

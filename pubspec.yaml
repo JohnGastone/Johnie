@@ -31,7 +31,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^2.0.9 # Replace with the latest version
 
 
   # The following adds the Cupertino Icons font to your application.
