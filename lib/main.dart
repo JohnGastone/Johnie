@@ -3,11 +3,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:john_gastone/pages/experience.dart';
-import 'package:john_gastone/pages/motives.dart';
-import 'package:john_gastone/pages/home.dart';
-import 'package:john_gastone/pages/jonii.dart';
-import 'package:john_gastone/pages/profile.dart';
+import 'package:john/pages/experience.dart';
+import 'package:john/pages/motives.dart';
+import 'package:john/pages/home.dart';
+import 'package:john/pages/jonii.dart';
+import 'package:john/pages/profile.dart';
 
 void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
