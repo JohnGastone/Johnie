@@ -3,8 +3,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:john_gastone/pages/experience.dart';
-import 'package:john_gastone/pages/jonii.dart';
+import 'package:john/pages/experience.dart';
+import 'package:john/pages/jonii.dart';
 
 import '../widgets/expandableButton.dart';
 
@@ -223,7 +223,8 @@ class Profile extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Padding(padding: const EdgeInsets.only(left:22),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 22),
                         )
                       ],
                     ),

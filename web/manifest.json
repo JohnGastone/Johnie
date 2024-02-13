@@ -1,6 +1,6 @@
 {
-    "name": "john_gastone",
-    "short_name": "john_gastone",
+    "name": "john",
+    "short_name": "john",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

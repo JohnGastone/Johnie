@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -53,12 +52,12 @@ class Home extends StatelessWidget {
                 "He tries his best to contribute to \n                            GitHub",
                 style: GoogleFonts.lato(fontSize: 20),
               ),
-              SizedBox(
-                child: SvgPicture.network(
-                  'https://user-badge.committers.top/tanzania/JohnGastone.svg',
-                  // Other properties like width, height, color, etc.
-                ),
-              )
+              // SizedBox(
+              //   child: SvgPicture.network(
+              //     'https://user-badge.committers.top/tanzania/JohnGastone.svg',
+              //     // Other properties like width, height, color, etc.
+              //   ),
+              // )
             ],
           )
         ],
