@@ -39,6 +39,7 @@ class _ProfilePageState extends State<ProfilePage> {
             child: Image.asset('./images/bentoo.png'),
           ),
           SizedBox(
+            height: 3000,
             child: Column(
               children: [
                 Row(
