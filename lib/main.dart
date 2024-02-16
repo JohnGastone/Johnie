@@ -33,7 +33,7 @@ class _ExampleState extends State<Example> {
     Home(),
     Motives(),
     Experience(),
-    Profile()
+    ProfilePage()
   ];
 
   @override
