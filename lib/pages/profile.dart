@@ -22,7 +22,7 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 35, 47, 66),
+        backgroundColor: Color.fromARGB(255, 163, 166, 170),
         body: Padding(
             padding: EdgeInsets.all(15),
             child: Column(
@@ -30,7 +30,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
-                    height: 50,
+                    height: 20,
                   ),
                   Text(
                     '|>  Meet John. \n\n|>  A full time learner.',
@@ -39,12 +39,12 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ),
                   SizedBox(
-                    height: 110,
-                    width: 110,
+                    // height: 0,
+                    // width: 110,
                     child: Image.asset('images/bentoo.png'),
                   ),
                   SizedBox(
-                      height: 3000,
+                      height: 1000,
                       child: Column(children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -68,6 +68,30 @@ class _ProfilePageState extends State<ProfilePage> {
                             ),
                           ],
                         ),
+                        SizedBox(
+                          height: 2700,
+                          child: ListView.builder(
+                              itemCount: displayList.length,
+                              itemBuilder: ((context, index) => InkWell(
+                                  // Handle the tap event
+                                  onTap: () {},
+                                  child: ListTile(
+                                    contentPadding: EdgeInsets.all(4),
+                                    leading: Image.asset(
+                                      displayList[index].itemImage!,
+                                      width: 50,
+                                      height: 50,
+                                      fit: BoxFit.cover,
+                                    ),
+                                    title: Text(
+                                      displayList[index].itemTitle!,
+                                      style: TextStyle(
+                                          fontSize: 20,
+                                          color: Color.fromARGB(
+                                              255, 195, 205, 211)),
+                                    ),
+                                  )))),
+                        )
                       ]))
                 ])));
 
