@@ -1,13 +1,11 @@
 // ignore_for_file: camel_case_types, prefer_const_literals_to_create_immutables, prefer_const_constructors
 
-import 'package:flutter/gestures.dart';
+// import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:john/models/profileModel.dart';
-import 'package:john/pages/experience.dart';
-import 'package:john/pages/jonii.dart';
-
-import '../widgets/expandableButton.dart';
+// import 'package:john/pages/experience.dart';
+// import 'package:john/pages/jonii.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -22,7 +20,7 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 163, 166, 170),
+        backgroundColor: Colors.grey,
         body: Padding(
             padding: EdgeInsets.all(15),
             child: Column(
