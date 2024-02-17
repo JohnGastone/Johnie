@@ -37,60 +37,60 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ),
                   SizedBox(
-                    // height: 0,
-                    // width: 110,
+                    height: 100,
+                    width: 100,
                     child: Image.asset('images/bentoo.png'),
                   ),
                   SizedBox(
-                      height: 1000,
+                      // height: 532,
                       child: Column(children: [
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              "< ",
-                              style: GoogleFonts.lato(
-                                  fontSize: 40, fontWeight: FontWeight.w300),
-                            ),
-                            Text(
-                              'Personal Details',
-                              style: GoogleFonts.lato(
-                                  // height: 10,
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.bold),
-                            ),
-                            Text(
-                              " /> ",
-                              style: GoogleFonts.lato(
-                                  fontSize: 40, fontWeight: FontWeight.w300),
-                            ),
-                          ],
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          "< ",
+                          style: GoogleFonts.lato(
+                              fontSize: 40, fontWeight: FontWeight.w300),
                         ),
-                        SizedBox(
-                          height: 2700,
-                          child: ListView.builder(
-                              itemCount: displayList.length,
-                              itemBuilder: ((context, index) => InkWell(
-                                  // Handle the tap event
-                                  onTap: () {},
-                                  child: ListTile(
-                                    contentPadding: EdgeInsets.all(4),
-                                    leading: Image.asset(
-                                      displayList[index].itemImage!,
-                                      width: 50,
-                                      height: 50,
-                                      fit: BoxFit.cover,
-                                    ),
-                                    title: Text(
-                                      displayList[index].itemTitle!,
-                                      style: TextStyle(
-                                          fontSize: 20,
-                                          color: Color.fromARGB(
-                                              255, 195, 205, 211)),
-                                    ),
-                                  )))),
-                        )
-                      ]))
+                        Text(
+                          'Personal Details',
+                          style: GoogleFonts.lato(
+                              // height: 10,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
+                        Text(
+                          " /> ",
+                          style: GoogleFonts.lato(
+                              fontSize: 40, fontWeight: FontWeight.w300),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 2700,
+                      child: ListView.builder(
+                          itemCount: displayList.length,
+                          itemBuilder: ((context, index) => InkWell(
+                              // Handle the tap event
+                              onTap: () {},
+                              child: ListTile(
+                                contentPadding: EdgeInsets.all(4),
+                                leading: Image.asset(
+                                  displayList[index].itemImage!,
+                                  width: 50,
+                                  height: 50,
+                                  fit: BoxFit.cover,
+                                ),
+                                title: Text(
+                                  displayList[index].itemTitle!,
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      color:
+                                          Color.fromARGB(255, 195, 205, 211)),
+                                ),
+                              )))),
+                    )
+                  ]))
                 ])));
 
     //
